@@ -1,0 +1,174 @@
+/* ========= Body & Layout ========= */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3fadd1;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========= Container ========= */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: rgb(30, 205, 215);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ========= Header ========= */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4CAF50;
+  margin-bottom: 10px;
+}
+
+/* ========= Navigation ========= */
+nav {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* ========= Sections ========= */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+section h3 {
+  color: #444;
+  margin-top: 20px;
+}
+
+/* ========= Lists ========= */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* ========= Buttons ========= */
+.button-group {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 6px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #388e3c;
+}
+
+/* ========= Links ========= */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========= Progress Bars ========= */
+progress {
+  width: 100%;
+  height: 16px;
+  margin-bottom: 10px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+/* ========= Footer ========= */
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+/* ========= Embedded Map ========= */
+iframe {
+  border: none;
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* ========= Responsive for Mobile ========= */
+@media screen and (max-width: 600px) {
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 8px 0;
+  }
+}
